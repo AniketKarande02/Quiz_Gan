@@ -14,9 +14,14 @@
         android:theme="@style/Theme.QuizGame"
         tools:targetApi="31">
         <activity
+            android:name=".ShareResultActivity"
+            android:exported="false"
+            android:label="@string/title_activity_share_result"
+            android:theme="@style/Theme.QuizGame.NoActionBar" />
+        <activity
             android:name=".ResultActivity"
             android:exported="false"
-            android:theme="@style/SignupTheme"/>
+            android:theme="@style/SignupTheme" />
         <activity
             android:name=".QuizActivity"
             android:exported="false"
